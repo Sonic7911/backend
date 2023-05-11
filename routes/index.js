@@ -5,7 +5,7 @@ const userSchema = require('../models/userSchema');
 
 // Import and initialize router for http requests
 const router = require('express').Router();
-
+reqcors
 /**
  * GET api for fetching all users
  */

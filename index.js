@@ -1,5 +1,7 @@
 // Filename: server.js
 
+const cors = require ('cors')
+
 /**
  * Importing packages
  */
@@ -25,6 +27,8 @@ const router = require('./routes');
 
 // Initialize express
 const app = express();
+
+app.use(cors())
 
 // Parses the json data from request body
 app.use(express.json());
